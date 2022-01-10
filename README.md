@@ -36,3 +36,5 @@ printf(hello, %s\n", answer);
 }
 
 /*this is telling the compiler to automatically go to the next line*/
+
+//continue cs50 lecture 1 @54:06
