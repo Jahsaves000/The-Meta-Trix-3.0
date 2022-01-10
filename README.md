@@ -3,7 +3,7 @@ This is where I will begin to implement actual code based programming.
 
 //c (programming laguage)
 
-* things entered below this line
+/* things entered below this line
 will pertan to actual code*/
 
 #include <stdio.h>
@@ -13,7 +13,7 @@ int main(void)
 printf("hello, world");
 }
 
-//turn ^ into 
+//another version
 
 #include <cs50.h>
 #include <stdio.h>
@@ -21,6 +21,7 @@ printf("hello, world");
 int main(void)
 {
 string answer = get_string("What's your name? ");
+
 printf(hello, %s", answer);
 }
 
@@ -30,6 +31,8 @@ printf(hello, %s", answer);
 int main(void)
 {
 string answer = get_string("What's your name? ");
-/*this is telling the compiler to automatically go to the next line*/
+
 printf(hello, %s\n", answer);
 }
+
+/*this is telling the compiler to automatically go to the next line*/
